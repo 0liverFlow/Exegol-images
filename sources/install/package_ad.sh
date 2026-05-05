@@ -1783,7 +1783,7 @@ function package_ad() {
     install_impacket_og            # Impacket scripts (original version)
     install_bloodbash              # Bloodhound in terminal
     install_evenmonitor            # Monitor the Windows Event Log with grep-like features or filtering for specific Event IDs
-    install_bhcli		   # CLI tool to interact with BloodHound CE API
+    install_bhcli		           # CLI tool to interact with BloodHound CE API
     post_install
     end_time=$(date +%s)
     local elapsed_time=$((end_time - start_time))
